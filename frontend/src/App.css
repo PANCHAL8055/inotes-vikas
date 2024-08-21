@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.dark {
+  background-color: rgb(4, 10, 36);
+  min-height: 100vh;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.text-color-white
+{
+  color: white;
+}
+
+.text-color-black
+{
+  color: black;
+}
+
+.backgorund-color-grey
+{
+  background-color: #e6dcdca6;
+}

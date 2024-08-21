@@ -1,0 +1,118 @@
+.main-app
+{
+    text-align: center;
+    padding-top: '30px';
+}
+
+.notes-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.notes-title {
+    font-size: 2rem;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.notes-description {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.note-item {
+    display: flex;
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.note-title {
+    margin: 0;
+    font-size: 1rem;
+    color: #444;
+}
+
+.note-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notes-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.notes-info-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.notes-count {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #444;
+    border: #ccc 1px solid;
+    padding: 0.7rem 1.5rem;
+    border-radius: 30px;
+}
+
+.create-note-button {
+    background: #666;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.create-note-button:hover {
+    background: gray;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .notes-title {
+        font-size: 1.5rem;
+    }
+
+    .notes-description {
+        font-size: 1rem;
+    }
+
+    .note-title {
+        font-size: 1.2rem;
+    }
+
+    .notes-container {
+        padding: 10px;
+    }
+}
+
+.theme-toggle-button {
+    background: #eeebeb;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}

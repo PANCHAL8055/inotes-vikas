@@ -1,0 +1,70 @@
+/* General styling for the app */
+.App {
+    text-align: center;
+    background: rgb(255, 252, 235);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Styling for the header section */
+  .App-header {
+    background-color: rgba(193, 213, 221, 0.85);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Styling for the header text */
+  h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+  
+  /* Container for the buttons */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  /* Styling for the buttons */
+  .App-button {
+    background-color: #9ca6db;
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover effect for the buttons */
+  .App-button:hover {
+    background: linear-gradient(135deg, #21a1f1, #61dafb);
+    transform: scale(1.1);
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .App-button {
+      padding: 10px 20px;
+      font-size: 1em;
+    }
+    
+    .button-container {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+  

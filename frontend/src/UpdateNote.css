@@ -1,0 +1,89 @@
+/* .create-note-container {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+.create-note-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.create-note-header {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quill-editor {
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+.save-button {
+    padding: 10px 20px;
+    background-color: #666;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: max-content;
+    height: max-content;
+}
+
+.save-button:hover {
+    background-color: #555;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.cancel-button {
+    padding: 10px 20px;
+    background-color: lightcoral;
+    border: lightcoral 1px solid;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: max-content;
+    height: max-content;
+    transition: all ease-in-out 0.3s;
+}
+
+.cancel-button:hover {
+    background-color: #555;
+    color: white;
+    transition: all ease-in-out 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
